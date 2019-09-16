@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#p1l3^zc*=pgzsfbf9*r+&ph*ulr8&vw^oacj3n*cm9s%fkvq_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'blog.apps.BlogConfig',
-    'blog',
+    'blog.apps.BlogConfig',
+    #'blog',
 ]
 
 MIDDLEWARE = [
